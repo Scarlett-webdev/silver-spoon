@@ -1,0 +1,69 @@
+
+
+
+
+<div class="container-fluid-md">
+
+<div class="profile-bar" style="background-color:<%= weatherColor %>; color:<%= textColor %>;">
+
+<div class="row row-cols-1" >
+
+<div class="row row-cols-1">
+  <div class="col-lg-6">
+
+    <!-- col left -->
+    <div class="col">
+      <div class="row margin-bottom">
+        <div class="col d-flex justify-content-center align-items-center">
+          <video class="video-icon" src="/Videos/icons/<%= bgMovie %>.mp4" autoplay loop />
+        </div>
+        <div class="col weather-text-group">
+          <div class="row row-cols-lg-2 d-flex align-items-lg-center mt-2">
+            <div class="col">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <h5><%= description %></h5>
+                </div>
+                <div class="col d-flex">
+                  <h5 class="temp-text"><%= temp %>°</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col left-border" style="border-left:<%= textColor %> solid 3px;">
+                  <h5><%= location %></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+
+  </div>
+
+  <div class="col-lg-3 d-flex align-items-lg-center">
+    <!-- col right -->
+    <div class="col">
+      <div class="row">
+        <div class="col">
+          <div class="row row-cols-1">
+            <div class="col d-flex justify-content-center margin-bottom">
+              <h5 class="greeting-text">Hi Stranger</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+</div>

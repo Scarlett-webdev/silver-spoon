@@ -1,0 +1,40 @@
+<%- include("partials/head") %>
+<%- include("partials/user-nav-bar") %>
+
+
+<div class="main-contain mt-4">
+
+<%- include("partials/short-profile-bar") %>
+
+<div class="container-fluid">
+
+  <div class="row row-cols-1">
+    <div class="col d-flex justify-content-center">
+      <div class="dropdown dropdown-text">
+      <button class="btn btn-outline-dark dropdown-toggle mb-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <h1>FAVORITES</h1>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><h1><a class="dropdown-item" href="#">SUBMITTED</a></h1></li>
+        <li><h1><a class="dropdown-item" href="#">BLOCKED</a></h1></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col d-flex justify-content-center">
+      <%- include("partials/user-buttons") %>
+      <%- include("partials/food-suggestion") %>
+    </div>
+  </div>
+
+</div>
+
+<%- include("partials/foot-nav-bar") %>
+
+
+</div>
+
+<%- include("partials/footer") %>

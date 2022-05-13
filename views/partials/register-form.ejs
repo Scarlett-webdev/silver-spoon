@@ -1,0 +1,159 @@
+<div class="row container-fluid">
+
+
+  <div class="col offset-lg-1">
+
+    <form class="" action="/register" method="post">
+      <div class="row">
+        <h1 class="heading-back">Register</h1>
+      </div>
+
+
+      <div class="row row-cols-lg-3">
+        <div class="col">
+
+
+
+
+                <div class="row row-cols-1 offset-1">
+                  <div class="col top-space">
+                    <label class="label-title" for="fName" class="label-back">First Name</label>
+                  </div>
+                  <div class="col offset-1">
+                    <input type="text" id="fName" name="fName">
+                  </div>
+                </div>
+
+
+                <div class="row row-cols-1 offset-1">
+                  <div class="col">
+                    <label class="label-title" for="lName" class="label-back">Last Name</label>
+                  </div>
+                  <div class="col offset-1">
+                    <input type="text" id="lName" name="lName">
+                  </div>
+                </div>
+
+
+                <div class="row row-cols-1 offset-1">
+                  <div class="col">
+                    <label class="label-title" for="location" class="label-back">Your City</label>
+                  </div>
+                  <div class="col offset-1">
+                    <input type="text" id="location" name="setLocation">
+                  </div>
+                </div>
+
+
+                <div class="row row-cols-1 offset-1">
+                  <div class="col">
+                    <label class="label-title" for="DName" class="label-back">Display Name</label>
+                  </div>
+                  <div class="col offset-1">
+                    <input type="text" id="DName" name="displayName">
+                  </div>
+                </div>
+
+
+
+
+
+
+        </div>
+        <div class="col">
+
+
+
+
+          <div class="row row-cols-1 offset-1">
+            <div class="col">
+              <label class="label-title" for="DietName" class="label-back">Dietary Restrictions</label>
+            </div>
+            <div class="col offset-1">
+              <div class="row row-cols-3">
+                <div class="col">
+                  <input type="checkbox" name="dietRestrictions" value="meat">
+                  <label for="meat">meat</label>
+                </div>
+                <div class="col">
+                  <input type="checkbox" name="dietRestrictions" value="pork">
+                  <label for="pork">pork</label>
+                </div>
+                <div class="col">
+                  <input type="checkbox" name="dietRestrictions" value="shellfish">
+                  <label for="shellfish">shellfish</label>
+                </div>
+                <div class="col">
+                  <input type="checkbox" name="dietRestrictions" value="fish">
+                  <label for="fish">fish</label>
+                </div>
+                <div class="col">
+                  <input type="checkbox" name="dietRestrictions" value="nuts">
+                  <label for="nuts">nuts</label>
+                </div>
+                <div class="col">
+                  <input type="checkbox" name="dietRestrictions" value="gluten">
+                  <label for="gluten">gluten</label>
+                </div>
+                <div class="col">
+                  <input type="checkbox" name="dietRestrictions" value="dairy">
+                  <label for="dairy">dairy</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="dietRestrictions" value="lotion" checked hidden>
+                  <input type="checkbox" name="dietRestrictions" value="chapstick" checked hidden>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row row-cols-1 offset-1">
+            <div class="col ">
+              <label class="label-title" for="username" class="label-back">Email Address</label>
+            </div>
+            <div class="col offset-1">
+              <input type="text" id="email" name="email">
+            </div>
+          </div>
+
+
+          <div class="row row-cols-1 offset-1">
+            <div class="col">
+              <label class="label-title" for="password" class="label-back">Create Password</label>
+            </div>
+            <div class="col offset-1">
+              <input type="password" id="password" name="password">
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+
+
+
+      <div class="row row-cols-1 offset-4 offset-lg-8">
+        <div class="col top-space">
+          <button class="btn btn-dark btn-lg" type="submit" name="login-button">Register</button>
+        </div>
+        <div class="col top-space">
+
+          <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Register with Google
+          </a>
+
+        </div>
+
+      </div>
+    </form>
+
+
+  </div>
+</div>

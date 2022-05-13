@@ -1,0 +1,21 @@
+
+
+      <div class="col">
+      <div class="row row-cols-1 offset-lg-1">
+        <div class="col">
+          <h2><%= foodList[0].foodTitle %></h2>
+        </div>
+        <div class="col">
+          <p><%= foodList[0].foodAccomp %></p>
+        </div>
+        <div class="col sub-info">
+          <p><b>suggested by: </b><%= foodList[0].suggestedBy %></p>
+          <a href="<%= foodList[0].website %>" target="_blank"><%= foodList[0].websiteName %></a>
+        </div>
+        </div>
+          </div>
+
+
+        <div class="col" data-bs-toggle="tooltip" data-bs-placement="bottom" title="coming soon">
+          <button type="button" name="button" class="btn btn-link" disabled><img class="suggestion-icons" src="Images/icons/next-button.png" alt="next button"></button>
+        </div>
