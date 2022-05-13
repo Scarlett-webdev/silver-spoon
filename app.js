@@ -37,7 +37,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // connect to Mongoose
-mongoose.connect("mongodb+srv://ScarlettAdmin:" + process.env.MONPASS +"@cluster0.rxqdw.mongodb.net/"+ process.env.MONDBNAME +"?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://" + process.env.MONNAME + process.env.MONPASS +"@cluster0.rxqdw.mongodb.net/"+ process.env.MONDBNAME +"?retryWrites=true&w=majority");
 
 
 // Schema for user
